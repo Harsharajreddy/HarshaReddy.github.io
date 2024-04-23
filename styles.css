@@ -328,3 +328,90 @@ to {
       transform: rotateY(360deg) 
     }
   }
+
+
+  @media screen and (max-width: 768px) {
+    .navbar {
+        top: 10px;
+        right: 10px;
+    }
+    
+    .navbar li {
+        font-size: 16px;
+        margin-right: 15px;
+    }
+    
+    .animate-character {
+        font-size: 25px;
+    }
+
+    .intro-text {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+}
+
+
+/* Add the following media query */
+@media screen and (max-width: 768px) {
+    .about-div {
+        margin: 0 10px;
+    }
+
+    .title-about {
+        font-size: 40px;
+    }
+
+    .text-about {
+        font-size: 20px;
+    }
+
+    .skills li {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .skills img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+/* Add the following media query */
+@media screen and (max-width: 768px) {
+    .project {
+        max-width: calc(50% - 20px); /* Two projects per row */
+    }
+
+    .pro-title span {
+        font-size: 30px;
+    }
+}
+
+
+/* Add the following media query */
+@media screen and (max-width: 768px) {
+    .form-container {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+
+    .form-container textarea {
+        height: 100px;
+    }
+
+    .form-container button[type="submit"] {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+}
